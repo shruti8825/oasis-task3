@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+body{
+	
+		background-color:aqua;
+	}
+
+main {
+    width: 40cm;
+    height: 20cm;
+    background-image: url(temp2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    font-family: monospace;
+    margin-left: 6cm;
+    margin-right: 6cm;
+    background-color: aqua;
+    padding-left: 8cm;
+    padding-right: 8cm;
+    font-size: larger;
+    margin-bottom:3cm ;
+}
+header{
+    justify-content: center;
+}
+
+.enter {
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 768px;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.input {
+    flex: 1 1 40%;
+    margin: 15px;
+    background-color: aqua;
+    border-radius: 8px;
+    padding: 15px;
+    transition: 0.4s;
+    max-width: 100%;
+}
+
+#loader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: auto;
+    overflow: visible;
+    background: #000 url(7loader.gif) no-repeat center center;
+    animation-duration: 3s;
+
+}
